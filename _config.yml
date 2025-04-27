@@ -1,0 +1,16 @@
+title: Ubud
+email: exemplo@email.com
+description: >-
+  Um blog inspirado no tema Ubud, convertido para Jekyll.
+baseurl: "" # Caminho base, deixe vazio para GitHub Pages root
+url: "" # Vai ser preenchido automaticamente pelo GitHub Pages
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+permalink: /:title/
+
+collections:
+  posts:
+    output: true
+    permalink: /:title/

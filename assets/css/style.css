@@ -1,0 +1,115 @@
+/* Fonte Inter - para uma aparência próxima do original */
+body {
+  font-family: 'Inter', Arial, sans-serif;
+  background: #fafaf9;
+  color: #222;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 90%;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.site-header {
+  border-bottom: 1px solid #eee;
+  background: #fff;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.nav-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+
+.site-title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #222;
+  text-decoration: none;
+}
+
+.main-nav {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+.main-nav a {
+  font-size: 1rem;
+  color: #222;
+  text-decoration: none;
+  font-weight: 400;
+  transition: color 0.2s;
+}
+.main-nav a:hover, .main-nav a.membership {
+  color: #9a542d;
+  font-weight: 600;
+}
+.social-links {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin-left: 12px;
+}
+.social-links img {
+  width: 18px;
+  height: 18px;
+  opacity: 0.8;
+  transition: opacity 0.2s;
+}
+.social-links img:hover {
+  opacity: 1;
+}
+
+.site-footer {
+  margin-top: 48px;
+  background: #fafaf9;
+  padding: 32px 0 16px;
+  font-size: 0.95rem;
+  color: #9e9897;
+  border-top: 1px solid #eee;
+}
+.footer-menu {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  margin-bottom: 12px;
+}
+.copyright {
+  text-align: center;
+  color: #bbb;
+}
+
+.main-content {
+  min-height: 70vh;
+  margin-top: 40px;
+}
+
+@media (max-width: 900px) {
+  .container {
+    max-width: 100%;
+    width: 96%;
+  }
+  .main-content {
+    margin-top: 24px;
+  }
+}
+@media (max-width: 700px) {
+  .nav-bar, .footer-menu {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
+  .main-nav {
+    gap: 8px;
+  }
+  .main-content {
+    margin-top: 12px;
+  }
+}

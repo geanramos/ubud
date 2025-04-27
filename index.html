@@ -1,0 +1,63 @@
+---
+layout: default
+title: Ubud
+---
+<div class="container">
+  <section class="hero">
+    <img class="hero-img" src="https://ext.same-assets.com/2054648952/230788740.jpeg" alt="Ubud Blog" style="width:100%; max-height:300px; object-fit:cover; border-radius:10px; margin-bottom:24px;">
+    <div class="intro-box" style="background: #fff; border-radius: 8px; padding: 28px 30px; margin-bottom: 28px; box-shadow: 0 0 8px rgba(0,0,0,0.03);">
+      <p style="font-size:1.13em;"><b>Bem-vindo ao Ubud.</b> Blog inspirado no tema do Ghost CMS e recriado para Jekyll. Aqui você encontra posts e histórias inspiradoras.</p>
+    </div>
+  </section>
+  <section class="post-list">
+    <h2 style="font-size:1.1em; font-weight:700; letter-spacing:1px; margin-top:36px;">Posts em destaque</h2>
+    <hr style="margin-bottom:24px; margin-top:12px;">
+    <div class="featured-posts">
+    {% assign featured = site.posts | slice: 0, 3 %}
+    {% for post in featured %}
+      <div class="post-row">
+        <div class="post-meta">
+          <span class="post-date">{{ post.date | date: "%d %b %Y" }}</span>
+        </div>
+        <div class="post-body">
+          <a href="{{ post.url }}" class="post-title">{{ post.title }}</a>
+          <div class="post-excerpt">{{ post.excerpt | strip_html | truncate: 110 }}</div>
+        </div>
+        {% if post.image %}
+        <div class="post-thumb"><img src="{{ post.image }}" alt="{{ post.title }}" /></div>
+        {% endif %}
+      </div>
+    {% endfor %}
+    </div>
+    <h2 style="font-size:1.1em; font-weight:700; letter-spacing:1px; margin-top:36px;">Posts Recentes</h2>
+    <hr style="margin-bottom:24px; margin-top:12px;">
+    <div class="recent-posts">
+    {% assign recent = site.posts | offset: 3 %}
+    {% for post in recent %}
+      <div class="post-row">
+        <div class="post-meta">
+          <span class="post-date">{{ post.date | date: "%d %b %Y" }}</span>
+        </div>
+        <div class="post-body">
+          <a href="{{ post.url }}" class="post-title">{{ post.title }}</a>
+          <div class="post-excerpt">{{ post.excerpt | strip_html | truncate: 110 }}</div>
+        </div>
+        {% if post.image %}
+        <div class="post-thumb"><img src="{{ post.image }}" alt="{{ post.title }}" /></div>
+        {% endif %}
+      </div>
+    {% endfor %}
+    </div>
+    <div style="text-align:center; margin:36px 0 6px;">
+      <a href="/blog/" class="all-posts-btn">Ver todos os posts →</a>
+    </div>
+  </section>
+  <section class="newsletter-box" style="background:#fff; border-radius:8px; padding:32px 24px; margin:48px 0; box-shadow: 0 0 8px rgba(0,0,0,0.03);">
+    <h3 style="margin-bottom:10px; font-size:20px;">Newsletter Ubud</h3>
+    <p style="margin-bottom:18px;">Cadastre seu e-mail para receber novidades do blog.</p>
+    <form class="newsletter-form" method="POST" action="#">
+      <input type="email" placeholder="Seu e-mail" required style="padding:12px 14px; border:1px solid #eee; border-radius:5px; width:260px;">
+      <button type="submit" style="padding:12px 22px; background:#b03a2e; color:#fff; border:none; border-radius:4px; font-weight:600; margin-left:8px; cursor:pointer;">Inscrever</button>
+    </form>
+  </section>
+</div>

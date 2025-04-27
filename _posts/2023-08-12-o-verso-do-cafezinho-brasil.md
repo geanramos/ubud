@@ -1,10 +1,10 @@
 ---
+layout: post
 title: "O Verso do Cafezinho Brasileiro"
 date: 2023-08-12 09:00:00 +0000
 author: Marcos Oliveira
 image: https://ext.same-assets.com/2054648952/2116676194.webp
 excerpt: "Da fazenda à xícara: descobrindo histórias de café pelo país."
-layout: post
 ---
 
 Poucas coisas são tão brasileiras quanto o café. De manhã ou à tarde, o famoso cafezinho aproxima amigos, familiares e desconhecidos por todo o país.

@@ -14,3 +14,6 @@ collections:
   posts:
     output: true
     permalink: /:title/
+
+lang: pt-BR  # Definindo o idioma do site
+google_analytics: UA-XXXXXX-X  # Se você usar Google Analytics

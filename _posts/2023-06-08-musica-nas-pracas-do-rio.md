@@ -1,10 +1,10 @@
 ---
+layout: post
 title: "Música nas Praças do Rio: Cultura para Todos"
 date: 2023-06-08 15:10:00 +0000
 author: Julia Ribeiro
 image: https://ext.same-assets.com/2054648952/783015063.webp
 excerpt: "Projeto leva shows gratuitos de vários estilos às praças cariocas."
-layout: post
 ---
 
 O projeto "Música nas Praças" ganhou destaque no Rio de Janeiro em 2023 ao levar apresentações gratuitas para bairros da zona norte, sul e oeste. Samba, bossa nova, rap e pop embalaram noites e finais de semana inteiros, aproximando artistas independentes do público diverso da cidade.

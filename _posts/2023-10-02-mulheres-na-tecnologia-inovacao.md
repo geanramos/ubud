@@ -1,10 +1,10 @@
 ---
+layout: post
 title: "Mulheres na Tecnologia: Inovação e Diversidade"
 date: 2023-10-02 10:00:00 +0000
 author: Carla Nunes
 image: https://ext.same-assets.com/2054648952/4202457493.webp
 excerpt: "Histórias inspiradoras de brasileiras que transformam o setor tech."
-layout: post
 ---
 
 A presença feminina no setor de tecnologia vem crescendo ano após ano. Segundo a pesquisa mais recente do IBGE, o número de mulheres em cursos de computação dobrou em dez anos.

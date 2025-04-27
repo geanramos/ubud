@@ -1,10 +1,10 @@
 ---
+layout: post
 title: "Arte na Rua: Inspirando a Cidade"
 date: 2023-11-20 09:00:00 +0000
 author: Ana Souza
 image: https://ext.same-assets.com/2054648952/3569619623.webp
 excerpt: "Como projetos artísticos transformam o cotidiano urbano."
-layout: post
 ---
 
 As ruas de São Paulo ganharam novas cores nos últimos anos, graças a uma onda colaborativa de arte urbana. Murais grafitados por artistas locais têm inspirado crianças, jovens e adultos ao trazer mensagens positivas e críticas sociais em fachadas antes esquecidas.
